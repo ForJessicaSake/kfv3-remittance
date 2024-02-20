@@ -9,7 +9,7 @@ const Header = () => {
 
         <p className="pt-5 text-justify leading-7">
           Money transfers shouldn't be a hassle. At{" "}
-          <span className="font-bold">Leads Money Transfer</span>, we make it easy by offering
+          <span className="font-bold">Leeds Money Transfer</span>, we make it easy by offering
           fast, secure, and affordable way to meet your remittance needs, so you can focus on what
           matters. With our user-friendly platform and transparent fees, you can
           send money with confidence, knowing your recipients will receive every
