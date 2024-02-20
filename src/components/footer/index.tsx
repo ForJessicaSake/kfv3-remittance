@@ -22,27 +22,25 @@ export default function Footer() {
             </p>
           </div>
 
-          <div>
-            <p className="text-dark-blue text-lg mb-2 font-medium">Contact</p>
-            <a href="mailto:partnerships@leedsmoneytransfer.co.Uk">
-              <p className="w-52 text-gray-900">
-                partnerships@leedsmoneytransfer.co.Uk
-              </p>
-            </a>
-          </div>
-
-          <div>
-            <p className="text-dark-blue text-lg mb-2 font-medium">London</p>
-            <p className="w-36 text-gray-900">
+          <div className="text-gray-900">
+            <p className="text-dark-blue text-lg mb-2 font-medium">Location</p>
+            <p>
               <a
                 href="https://maps.google.com/?q=128 City Road, London, United Kingdom"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                128 City Road, London, United Kingdom. Postal Code: EC1V 2NX
-                Tel: +447877835123
+                128 City Road, London, United Kingdom.
               </a>
             </p>
+            <p>Postal Code: EC1V 2NX</p>
+          </div>
+          <div className=" text-gray-900">
+            <p className="text-dark-blue text-lg mb-2 font-medium">Contact</p>
+            <a href="mailto:partnerships@leedsmoneytransfer.co.Uk">
+              <p>partnerships@leedsmoneytransfer.co.Uk</p>
+              <p> Tel: +447877835123</p>
+            </a>
           </div>
         </div>
       </div>
