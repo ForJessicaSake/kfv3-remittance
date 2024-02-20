@@ -26,7 +26,7 @@ const Contact = () => {
           </div>
           <p className="font-bold">OR</p>
 
-          <a href="mailto:contactus@kiakiafx.uk">
+          <a href="mailto:partnerships@leedsmoneytransfer.co.Uk">
             <Button className="text-base">Send A Message </Button>
           </a>
         </div>
