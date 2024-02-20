@@ -11,10 +11,12 @@ const Contact = () => {
       </h1>
       <div className="max-w-3xl">
         <p className="py-5">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-          nemo dolore, consequatur quasi quidem architecto, corrupti minus
-          cupiditate molestiae, alias earum nesciunt.
+          Send me a message, and tell me more about your financial goals and
+          needs. I will get back to you soon to schedule a consultation. Our
+          availability is Monday to Friday from 9am to 5pm, and Saturdays by
+          appointment. However, please note that we are is closed on Sundays.
         </p>
+
         <div className="flex md:flex-row flex-col items-center justify-between md:space-y-0 space-y-2">
           <div>
             <p>Speak to a specialist on: </p>
@@ -29,50 +31,6 @@ const Contact = () => {
           </a>
         </div>
       </div>
-
-      {/* <form className="flex flex-col max-w-xl w-full space-y-7">
-        <label>
-          <input
-            className="border-b rounded-sm border-dark-blue placeholder:text-dark-blue placeholder:font-semibold w-full p-2"
-            placeholder="First Name*"
-            type="text"
-          ></input>
-        </label>
-        <label>
-          <input
-            className="border-b rounded-sm border-dark-blue placeholder:text-dark-blue placeholder:font-semibold w-full p-2"
-            placeholder="Last Name*"
-            type="text"
-          ></input>
-        </label>
-        <label>
-          <input
-            className="border-b rounded-sm border-dark-blue placeholder:text-dark-blue placeholder:font-semibold w-full p-2"
-            placeholder="Phone Number*"
-            type="number"
-          ></input>
-        </label>
-
-        <label>
-          <input
-            className="border-b rounded-sm border-dark-blue placeholder:text-dark-blue placeholder:font-semibold w-full p-2"
-            placeholder="Email Address*"
-            required
-            type="email"
-          ></input>
-        </label>
-        <label>
-          <textarea
-            className="border-b rounded-sm border-dark-blue placeholder:text-dark-blue placeholder:font-semibold w-full p-2"
-            placeholder="Tell us about your financial goal"
-          ></textarea>
-        </label>
-        <div className="flex justify-center items-center">
-          <Button className="text-base w-48 p-5 rounded-full">
-            Send A Request{" "}
-          </Button>
-        </div>
-      </form> */}
     </div>
   );
 };

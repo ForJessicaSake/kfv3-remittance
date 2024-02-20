@@ -8,57 +8,54 @@ const Offers = () => {
         What we offer
       </h1>
 
-      <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-14 mt-14">
+      <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-14 gap-10 mt-14">
         <div className="flex flex-col items-center justify-center space-y-2">
           <div className=" h-64 w-64">
-            <img src="/fast.png" alt="money" className="h-full w-full" />
+            <img src="/security.webp" alt="money" className="h-full w-full" />
           </div>
           <div className="text-center">
             <h2 className="text-dark-blue font-bold text-lg">
-              Fast and Reliable Transfers
+              Reliability and Security
             </h2>
             <p className="text-sm pt-2 leading-7">
-              Say goodbye to money transfer hassle. Kiakia's global network
-              makes sending seamless, no matter the destination. Get your funds
-              to your recipients quickly and securely, with peace of mind
-              guaranteed. No distance is too far, you can send money just
-              anywhere and anytime.
+              We prioritize the safety and security of your funds, utilizing
+              advanced encryption and fraud prevention measures. Our robust
+              compliance framework ensures adherence to international
+              regulations, giving you peace of mind.
             </p>
           </div>{" "}
         </div>
 
         <div className="flex flex-col items-center justify-center space-y-2">
           <div className=" h-64 w-64">
-            <img src="/14.jpeg" alt="money" className="h-full w-full" />
+            <img src="/globe.webp" alt="money" className="h-full w-full" />
+          </div>
+          <div className="text-center">
+            <h2 className="text-dark-blue font-bold text-lg">Global Network</h2>
+            <p className="text-sm pt-2 leading-7">
+              With our vast network of trusted partners and financial
+              institutions worldwide, we ensure a wide coverage for money
+              transfers.You can rely on us to reach even the most remote
+              locations, ensuring your funds reach the intended recipients
+              promptly.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center space-y-2">
+          <div className=" h-64 w-64">
+            <img src="/ratesimg.webp" alt="money" className="h-full w-full" />
           </div>
           <div className="text-center">
             <h2 className="text-dark-blue font-bold text-lg">
               Competitive Rates
             </h2>
             <p className="text-sm pt-2 leading-7">
-              Get the most out of your money on every transfer. Kiakia offers
-              competitive exchange rates, ensuring you get the right value of
-              what you send. Plus, our transparent fee structure means no hidden
-              costs – you see exactly what you'll pay before you send. Send with
-              kiakia today, knowing you're getting the best value.
+              We offer competitive exchange rates, ensuring that you get the
+              most value for your money. Our transparent fee structure means no
+              hidden charges, providing full visibility into the costs
+              associated with your transfers
             </p>
-          </div>{" "}
-        </div>
-
-        <div className="flex flex-col items-center justify-center space-y-2">
-          <div className=" h-64 w-64">
-            <img src="/lock.png" alt="money" className="h-full w-full" />
           </div>
-          <div className="text-center">
-            <h2 className="text-dark-blue font-bold text-lg">Security</h2>
-            <p className="text-sm pt-2 leading-7">
-              At Kiakia, your money's security is our top priority. We utilize
-              industry-leading encryption technology and multi-factor
-              authentication to safeguard your funds at every step. Our robust
-              compliance platform adheres to international security standards,
-              including PCI DSS, giving you the best service.
-            </p>
-          </div>{" "}
         </div>
       </div>
     </section>

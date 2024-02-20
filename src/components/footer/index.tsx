@@ -1,29 +1,36 @@
 import Logo from "../../assets/logo.png";
 
-
 export default function Footer() {
   return (
     <div className="container mx-auto px-5 lg:px-0 md:mt-28 mt-14 mb-5 flex flex-col">
       <div className="h-[1px] bg-gray-600 my-5" />
       <div className=" my-16 flex flex-col gap-8 md:flex-row">
-        <div className="flex flex-col sm:flex-row gap-8 w-[100%] justify-between lg:px-10">
-          <a href="/">
-            <img
-              src={Logo}
-              alt="App Logo"
-              className="h-auto w-full max-h-16 max-w-24 inline"
-            />
-          </a>
+        <div className="flex flex-col lg:flex-row gap-8 w-[100%] justify-between lg:px-10">
+          <div>
+            <a href="/">
+              <img
+                src={Logo}
+                alt="App Logo"
+                className="h-auto w-full max-h-16 max-w-24 inline"
+              />
+            </a>
+            <p className="max-w-[200px] mt-2 text-gray-900 font-medium">
+              <p>
+                © {new Date().getFullYear()} Leads Money Transfer. All Right
+                Reserved
+              </p>
+            </p>
+          </div>
 
           <div>
             <p className="text-dark-blue text-lg mb-2 font-medium">Contact</p>
-            <a href="mailto:contactus@kiakiafx.uk">
-              <p className="w-52 text-gray-900">contactus@kiakiafx.uk</p>
+            <a href="mailto:partnerships@leedsmoneytransfer.co.Uk">
+              <p className="w-52 text-gray-900">
+                partnerships@leedsmoneytransfer.co.Uk
+              </p>
             </a>
           </div>
-        </div>
 
-        <div className="flex flex-col sm:flex-row gap-8 w-[100%] justify-between md:justify-around">
           <div>
             <p className="text-dark-blue text-lg mb-2 font-medium">London</p>
             <p className="w-36 text-gray-900">
@@ -37,10 +44,6 @@ export default function Footer() {
               </a>
             </p>
           </div>
-
-          <p className="w-52 text-gray-900 font-medium">
-            <p>© {new Date().getFullYear()} KiaKia. All Right Reserved</p>
-          </p>
         </div>
       </div>
     </div>
