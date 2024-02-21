@@ -17,8 +17,9 @@ const Header = () => {
           confidence, knowing your recipients will receive every penny in no
           time.
         </p>
-
-        <Button className="mt-5 w-40">Login</Button>
+        <a href="#offers">
+          <Button className="mt-5 w-40">Explore our Offers</Button>
+        </a>
       </div>
       <div className="flex justify-center lg:justify-normal">
         <img src="/7.jpeg" alt="consultation" className="rounded-md" />
@@ -28,11 +29,3 @@ const Header = () => {
 };
 
 export default Header;
-
-// Rewritten Header and Paragraph for Your Website:
-// Making international money transfers a breeze, so you can focus on what matters most
-// Header: Send More Than Just Money, Send money with confidence: Personalized Money Transfers
-
-// Paragraph: Forget impersonal transactions and faceless transfers.
-
-// Send money with confidence: Your loved ones get more, you worry less.

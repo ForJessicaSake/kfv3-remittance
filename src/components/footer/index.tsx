@@ -14,11 +14,9 @@ export default function Footer() {
                 className="h-auto w-full max-h-16 max-w-24 inline"
               />
             </a>
-            <p className="max-w-[200px] mt-2 text-gray-900 font-medium">
-              <p>
-                © {new Date().getFullYear()} Leads Money Transfer. All Right
-                Reserved
-              </p>
+            <p className=" mt-2 text-gray-900 font-medium">
+              <p>© {new Date().getFullYear()} Leads Money Transfer</p>
+              <p>All Right Reserved</p>
             </p>
           </div>
 
